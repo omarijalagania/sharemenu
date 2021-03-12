@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(146, 143, 192);
+}
+
+.share-container {
+    background-color: white;
+    padding: 10px;
+    min-width: 600px;
+    min-height: 400px;
+}
+
+.input {
+    font-size: 25px;
+    margin: 0 20px 0px 20px;
+    height: 150px;
+    width: 93%;
+    border: 0;
+    outline: none;
+}
+
+.social-privacy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px 10px 20px;
+
+}
+
+.privacy-btn {
+    border: 0;
+    color: 1548DD;
+    background-color: rgb(235, 235, 235);
+    padding: 10px 30px;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.add-gif {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+hr {
+    width: 319px;
+    margin-right: 20px;
+}
+
+.gif-btn {
+    background-color: rgb(235, 235, 235);
+    padding: 10px 25px;
+    font-size: 19px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.share-now {
+    position: relative;
+    height: 130px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.share-btn {
+    color: white;
+    background-color: #121C3A;
+    padding: 15px 30px;
+    font-size: 20px;
+    margin-right: 20px;
+    border: 0;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.sub-menu {
+    width: 150px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    bottom: -80px;
+    right: 20px;
+}
+
+.icon-btn {
+    padding-left: 10px;
+}
+
+.draft {
+    width: 100%;
+    padding-left:10px ;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.schedule {
+    width: 100%;
+    padding-left: 10px;
+    cursor: pointer; 
+}
+
+.draft:hover, 
+.schedule:hover {
+    
+    background-color: rgb(179, 184, 199);
+}
